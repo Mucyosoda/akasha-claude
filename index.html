@@ -8,21 +8,52 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Form title</h1>
+    <p id="description">short description </p>
+    <form id="survey-form">
+      <label id="name-label" for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter name" required>
+      <label id="email-label" for="email">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required>
+      <label id="number-label" for="number">Number</label>
+      <input id="number" type="number" min="10" max="100" placeholder="Enter only number">
+      Select dropdown
+      <select id="dropdown">
+        <option value="option1">option one</option>
+        <option value="option2">option two</option>
+      </select>
+      Select an Option
+      <input type="radio" name="radio-group" value="radio1">Radio1
+      <input type="radio" name="radio-group" value="radio2">Radio2
+      <input type="radio" name="radio-group" value="radio3">Radio3
+      Tick a checkbox
+      <input type="checkbox" value="checkbox1">checkbox1
+      <input type="checkbox" value="checkbox2">checkbox2
+      <input type="checkbox" value="checkbox3">checkbox3
+      Enter comments
+      <textarea rows="3" cols="15"></textarea>
+      <button id="submit">Submit</button>
 
-   Hello World, we are software developers!
 
-    <!--
 
-    Hello Camper!
 
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
+    
 
-    - The freeCodeCamp Team
 
-    -->
+  
+
+
+
+
+
+
+
+
+    </form>
+
+
+   
+
     <script  src="js/index.js"></script>
   </body>
 </html>
